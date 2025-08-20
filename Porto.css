@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+/* "Jersey 25", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.subir {
+    position: fixed;
+    left: 95%;
+    bottom: 2%;
+    z-index: 5;
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+
+.barra {
+    background: #0080C6;
+    position: relative;
+    height: 13vh;
+}
+
+.barra p {
+    position: absolute;
+    left: 37%;
+    top: 35%;
+    color: white;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 40px;
+    
+}
+
+.logoH {
+    width: 75px;
+    position: absolute;
+    left: 31%;
+    top: 9%;
+}
+
+.banner {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    border-radius: 35px;
+    width: 1700px;
+}
+
+.menu {
+    position: absolute;
+    left: 3%;
+    top: 80%;
+    width: 93%;
+    list-style-type: none;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 45px;
+    color: #003c71;
+    background: white;
+    border: 3px solid #0080C6;
+    border-radius: 40px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: .5% 6%;
+    position: relative;
+    left: 12%;
+    text-decoration: none;
+    color: #003c71;
+    background: white;
+}
+
+.menu > ul > a > li:hover {
+    color: white;
+    background: #003C71;
+    cursor: pointer;
+    transition: 0.8s;
+    text-decoration: none;
+    font-size: 43px;
+    left: 11.5%;
+    right: 1%;
+    padding: .54% 6.2%;
+}
+
+header {
+    background: #003C71;
+    height: 90vh;
+}
+
+
+/* Corpo */
+
+
+main {
+    background: #003C71;
+}
+
+
+
+article {
+    position: relative;
+    height: 45vh;
+}
+
+.artigo {
+    position: absolute;
+    width: 600px;
+    left: 5%;
+}
+
+.artigoP {
+    position: absolute;
+    left: 40%;
+    top: 8%;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 53px;
+    color: white;
+    width: 45%;
+}
+
+.históriaPorto {
+    position: relative;
+    background: white;
+    height: 130vh;
+    width: 80vw;
+    left: 10%;
+    border-radius: 30px;
+}
+
+.históriaPorto h1{
+    position: absolute;
+    left: 38.5%;
+    top: 4%;
+    color: #003C71;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 50px;
+}
+
+
+.setas {
+    position: absolute;
+    left: -.5%;
+    top: 5%;
+    z-index: 2;
+    width: 100%;
+    height: 90%;
+}
+
+.um {
+    position: absolute;
+    color: #003C71;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 18px;
+    width: 25%;
+    z-index: 2;
+}
+
+.uno {
+    left: 70%;
+    top: 12.2%;
+}
+
+.dois {
+    left: 5%;
+    top: 23%;
+}
+
+.tres {
+    left: 70%;
+    top: 35%;
+}
+
+.quatro {
+    left: 5%;
+    top: 46%;
+}
+
+.cinco {
+    left: 70%;
+    top: 57.5%;
+}
+
+.seis {
+    left: 5%;
+    top: 68%;
+}
+
+.sete {
+    left: 70%;
+    top: 77.5%;
+}
+
+.oito {
+    left: 5%;
+    top: 87.5%; 
+}
+
+.linhaTempo {
+    position: absolute;
+    left: 9%;
+    bottom: 0;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.historiaTorcida {
+    background: url(Imagens/fundo\ torcida\ claro.png);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.historiaTorcida p {
+    position: absolute;
+    left: 20%;
+    top: 14%;
+    width: 60%;
+    color: white;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.titulos {
+    position: relative;
+    height: 75vh;
+}
+
+.titulos h1 {
+    position: absolute;
+    left: 45%;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 53px;
+    color: white;
+}
+
+.campeao {
+    height: 450px;
+    width: 850px;
+    border-radius: 30px;
+    border: 3px solid #E8B145;
+    position: absolute;
+    left: 26%;
+    top: 10%;
+}
+
+.titulos h2 {
+    position: absolute;
+    left: 32.5%;
+    top: 80%;
+    color: #E8B145;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 35px;
+}
+
+.escalação {
+    position: relative;
+    height: 170vh;
+}
+
+.escalação h1 {
+    position: absolute;
+    left: 43%;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.escalação p {
+    position: absolute;
+    left: 10%;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.p1 {
+    top:10%;
+}
+
+.p2 {
+    top: 40%;
+}
+
+.p3 {
+    top: 65%;
+}
+
+.p4 {
+    top: 88%;
+}
+
+.time {
+    position: absolute;
+}
+
+.time img{
+    border-radius: 50%;
+    width: 137px;
+}
+
+.atq {
+    top: 5%;
+}
+
+.meio {
+    top: 32%;
+}
+
+.def {
+    top: 59%;
+}
+
+.gol {
+    top: 86%;
+}
+
+
+/* atacantes */
+
+
+.atq1 {
+    left: 25%;
+}
+
+.atq2 {
+    left: 35%;
+}
+
+.atq3 {
+    left: 45%;
+}
+
+.atq4 {
+    left: 55%;
+}
+
+.atq5 {
+    left: 65%;
+}
+
+.atq6 {
+    top: 18%;
+    left: 35%;
+}
+
+.atq7 {
+    top: 18%;
+    left: 45%;
+}
+
+.atq8 {
+    top: 18%;
+    left: 55%;
+}
+
+
+/* meio */
+
+
+.meio1 {
+    left: 30%;
+}
+
+.meio2 {
+    left: 40%;
+}
+
+.meio3 {
+    left: 50%;
+}
+
+.meio4 {
+    left: 60%;
+}
+
+.meio5 {
+    top: 45%;
+    left: 35%;
+}
+
+.meio6 {
+    top: 45%;
+    left: 45%;
+}
+
+.meio7 {
+    top: 45%;
+    left: 55%;
+}
+
+
+/* defesa */
+
+
+.def1 {
+    left: 30%;
+}
+
+.def2 {
+    left: 40%;
+}
+
+.def3 {
+    left: 50%;
+}
+
+.def4 {
+    left: 60%;
+}
+
+.def5 {
+    left: 30%;
+    top: 72%;
+}
+
+.def6 {
+    left: 40%;
+    top: 72%;
+}
+
+.def7 {
+    left: 50%;
+    top: 72%;
+}
+
+.def8 {
+    left: 60%;
+    top: 72%;
+}
+
+
+/* gol */
+
+.gol1 {
+    left: 40%;
+}
+
+.gol2 {
+    left: 50%;
+}
+
+
+figcaption {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+/* rodapé */
+
+footer {
+    position: relative;
+    height: 30vh;
+}
+
+.logoF {
+    position: absolute;
+    width: 190px;
+    left: 5%;
+    top: 5%;
+    z-index: 2;
+}
+
+.redes {
+    background: #0080C6;
+}
+
+.redes img {
+    padding: .7% 5%;
+    position: relative;
+    left: 20%;
+}
+
+.patrocinadores {
+    position: relative;
+    background: white;
+    height: 10vh;
+}
+
+.patrocinadores img {
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+.dev{
+    position: absolute;
+    left: 35%;
+    bottom: -90%;
+    color: #003C71;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.ded {
+    position: absolute;
+    left: 55%;
+    bottom: -90%;
+    color: #003C71;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 25px;
+}
+
+.fc {
+    position: absolute;
+    left: 75%;
+    bottom: -90%;
+    color: #003C71;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
